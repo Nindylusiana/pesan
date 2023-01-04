@@ -1,0 +1,19 @@
+body {
+  background-image: url("2.jpg");
+  background-size: cover;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-weight: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+}
